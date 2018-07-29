@@ -130,6 +130,8 @@ Select your &lt;a href="https://about.sonarcloud.io"&gt;plan&lt;/a&gt; and start
 &lt;/div&gt;</Property>
     <Property Name="sonar.core.id">BD367519-AWHW8ct9-T_TB3XqouNu</Property>
     <Property Name="sonar.core.startTime">26.07.2018 13:40:22</Property>
+    <Property Name="sonar.pullrequest.provider">GitHub</Property>
+    <Property Name="sonar.pullrequest.github.endpoint">https://api.github.com/</Property>
   </ServerSettings>
   <LocalSettings>
     <Property Name="sonar.organization">andriilysyi-github</Property>
