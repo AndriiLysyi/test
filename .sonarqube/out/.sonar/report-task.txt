@@ -1,0 +1,7 @@
+organization=andriilysyi-github
+projectKey=lwm
+serverUrl=https://sonarcloud.io
+serverVersion=7.3.0.14990
+dashboardUrl=https://sonarcloud.io/dashboard?id=lwm
+ceTaskId=AWTn9XWowiUtnmZVqVD6
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWTn9XWowiUtnmZVqVD6
