@@ -1,0 +1,7 @@
+organization=andriilysyi-github
+projectKey=learnwithmentor
+serverUrl=https://sonarcloud.io
+serverVersion=7.3.0.14992
+dashboardUrl=https://sonarcloud.io/dashboard?id=learnwithmentor
+ceTaskId=AWTsbL_2GEjsfxbZAojO
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWTsbL_2GEjsfxbZAojO

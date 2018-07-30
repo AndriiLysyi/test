@@ -1,0 +1,14 @@
+language: csharp
+dist: trusty
+solution: LearnWithMentor.sln
+addons:
+  sonarcloud:
+    organization: "andriilysyi-github" # the key of the org you chose at step #3
+    token:
+      secure: 1553b2d1577b861baf6b8127790aade6ecb43f2a # encrypted value of your token
+script:
+  # other script steps might be done before running the actual analysis
+  - sonar-scanner
+SonarScanner.MSBuild.exe begin /k:"learnwithmentor" /d:sonar.organization="andriilysyi-github" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.login="1553b2d1577b861baf6b8127790aade6ecb43f2a"
+MSBuild.exe /t:Rebuild
+SonarScanner.MSBuild.exe end /d:sonar.login="1553b2d1577b861baf6b8127790aade6ecb43f2a"
