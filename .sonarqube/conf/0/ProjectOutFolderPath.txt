@@ -1,0 +1,1 @@
+C:\Project\learnwithmentor-server\.sonarqube\out\0
